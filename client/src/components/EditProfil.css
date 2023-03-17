@@ -1,0 +1,93 @@
+.edit-prof {
+    margin-top: 100px;
+    width: 100vw;
+    height: 120vh;
+    /* background-color: red; */
+
+} 
+
+.edit{
+    display: flex;
+    gap: 70px;
+    margin: auto;
+    width: 90vw;
+    height: 100vh;
+    /* background-color: aqua; */
+    padding: 10px;
+}
+
+.iput-left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    /* background-color: blue; */
+    padding: 10px;
+   
+}
+.iput-left input{
+    border-style: dotted;
+    border-color: blue;
+    border-radius: 8px;
+    height: 60px;
+    width: 10cm;
+    /* background-color: rgb(25, 202, 70); */
+}
+.iput-left h3{
+    font-size: 20px;
+    /* border: 1px solid #444; */
+}
+
+.iput-raght{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    /* background-color: brown; */
+    padding: 10px;
+}
+
+.iput-raght input{
+    border-style: dotted;
+    border-color: blue;
+    border-radius: 8px ;
+    height: 60px;
+    width: 10cm;
+    /* background-color: rgb(223, 19, 97); */
+    /* mix-blend-mode: color-burn; */
+}
+
+.iput-raght select{
+    border-style: dotted;
+    border-color: blue;
+    border-radius: 8px ;
+    height: 60px;
+    width: 10cm;
+    /* background-color: rgb(223, 19, 97); */
+    /* mix-blend-mode: color-burn; */
+}
+
+.iput-raght h3{
+    font-size: 20px;
+    /* border: 1px solid #444; */
+}
+
+
+
+
+.edit-prof button {
+    height: 45px;
+    width: 6cm;
+    margin-left: 3cm;
+    padding: 5px 8px;
+    border: 2px solid #fff;
+    border-radius: 8px;
+    background-color: #2bc48a;
+    transition: all 0.8s;
+  }
+  
+.edit-prof button:hover { 
+      border-color: #2bc48a;
+      color: #000;
+      /* background-color: #fff; */
+  } 
